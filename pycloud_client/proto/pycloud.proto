@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package pycloud.ai;
+
+message Request {
+  string source_id = 1;
+  string endpoint_id = 2;
+  bytes args = 3;
+  bytes kwargs = 4;
+  string timestamp = 5;
+}
+
+message Response {
+  bytes response = 1;
+  string timestamp = 2;
+}
+
+service Endpoint {
+  rpc ProcessRequest(Request) returns (Response) {}
+}

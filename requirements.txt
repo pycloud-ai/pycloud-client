@@ -1,0 +1,4 @@
+json-tricks==3.13.2
+requests==2.23.0
+grpcio==1.26.0
+protobuf==3.9.2

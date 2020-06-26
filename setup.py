@@ -31,7 +31,7 @@ setup(
     license="Apache 2.0",
     author="pycloud.ai",
     author_email="contact@pycloud.ai",
-    url="pycloud.ai",
+    url="https://pycloud.ai",
     long_description=open(
         os.path.join(os.path.abspath(os.path.dirname(__file__)), "README.md")
     ).read(),

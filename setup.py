@@ -26,10 +26,12 @@ with open("requirements.txt", "r") as f:
 
 setup(
     name="pycloud-client",
-    version=open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "version")).read(),
+    version="0.7.1",
     description="Connectors for PyCloud clusters",
-    author="PyCloud.ai",
+    license="Apache 2.0",
+    author="pycloud.ai",
     author_email="contact@pycloud.ai",
+    url="pycloud.ai",
     long_description=open(
         os.path.join(os.path.abspath(os.path.dirname(__file__)), "README.md")
     ).read(),
